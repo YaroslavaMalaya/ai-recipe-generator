@@ -23,5 +23,9 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src"]
+  "include": [
+    "src",
+    "amplify/auth/**/*.ts", 
+    "amplify/data/**/*.ts"
+  ]
 }
